@@ -26,7 +26,7 @@ export default function Hero() {
                 4 years industry (software development & applied ML) + 1.5 years academic research
               </li>
               <li>
-                Built applied ML productivity tools driving client adoption & efficiency
+                Built applied ML productivity tools driving client acquisition & efficiency
               </li>
               <li>
                 Bridging domain experts, stakeholders, and client-facing teams
