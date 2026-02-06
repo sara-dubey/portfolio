@@ -1,0 +1,159 @@
+/* ================================================= */
+/* Base */
+/* ================================================= */
+
+body {
+  margin: 0;
+  background: #f7f7f5;
+  color: #111;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+
+
+
+/* ================================================= */
+/* Main content shift */
+/* ================================================= */
+
+.main {
+  margin-left: 64px;
+  transition: margin-left 0.25s ease;
+}
+
+.side-nav:hover ~ .main {
+  margin-left: 220px;
+}
+.about-contact {
+  padding: 140px 24px;
+  text-align: center;
+  background: #f7f6f3;
+}
+
+/* Title */
+.about-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #b46a4c; /* warm accent like screenshot */
+}
+
+/* Paragraph */
+.about-text {
+  max-width: 620px;
+  margin: 0 auto 56px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Buttons */
+.about-actions {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.about-btn {
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.about-btn.primary {
+  background: #f0a24a;
+  color: white;
+  box-shadow: 0 10px 24px rgba(240, 162, 74, 0.35);
+}
+
+.about-btn.secondary {
+  background: #f0a24a;
+  color: white;
+  box-shadow: 0 10px 24px rgba(240, 162, 74, 0.35);
+}
+
+.about-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Divider */
+.about-divider {
+  width: 60px;
+  height: 1px;
+  background: #ddd;
+  margin: 48px auto;
+}
+
+/* Contact info */
+.about-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Socials */
+.about-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 0.9rem;
+}
+
+.about-socials a {
+  text-decoration: none;
+  color: #555;
+}
+
+.about-socials a:hover {
+  text-decoration: underline;
+}
+.site-footer {
+  padding: 10px  ;
+  text-align: center;
+  background: #f7f6f3;
+  color: #222;
+}
+
+/* Monogram */
+.footer-mark {
+  margin-bottom: 48px;
+}
+
+.footer-letter {
+  display: block;
+  font-size: 3.8rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+}
+
+.footer-year {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  letter-spacing: 0.25em;
+  border-top: 1px solid #222;
+  padding-top: 6px;
+}
+
+/* Handmade line */
+.footer-made {
+  font-size: 1rem;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.footer-made span {
+  margin: 0 4px;
+}
+
+/* Copyright */
+.footer-copy {
+  font-size: 0.9rem;
+  color: #555;
+}
